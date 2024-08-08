@@ -1,0 +1,8 @@
+# Initialize Git repository
+git init
+git add .
+git commit -m "Initial commit"
+
+# Push to GitHub
+git remote add origin https://github.com/username/gamified-platform.git
+git push -u origin master
