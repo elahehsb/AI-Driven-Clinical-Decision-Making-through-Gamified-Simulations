@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gamified-platform-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: gamified-platform
+  template:
+    metadata:
+      labels:
+        app: gamified-platform
+    spec:
+      containers:
+      - name: gamified-platform
+        image: gamified-platform:latest
+        ports:
+        - containerPort: 5000
