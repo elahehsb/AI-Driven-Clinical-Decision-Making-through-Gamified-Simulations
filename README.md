@@ -1,4 +1,4 @@
-# A-Gamified-Platform-for-Clinical-Education
+# AI-Driven Clinical Decision-Making through Gamified Simulations
 
 ### Overview
 This project aims to develop a gamified platform that simulates clinical emergencies using virtual patients and educational escape room elements. The platform will collect multimodal data from physiological sensors, questionnaires, and digital logs. The analysis of this data will employ temporal learning analytics and explainable artificial intelligence (XAI) methods to map the clinical reasoning process and identify key factors for effective decision-making.
